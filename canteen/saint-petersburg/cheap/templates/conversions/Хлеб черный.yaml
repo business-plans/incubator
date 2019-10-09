@@ -1,0 +1,24 @@
+---
+kind: MaterialsConversion
+version: v1alpha
+data:
+  Хлеб черный:
+    InputMaterial:
+    - amount: 1.0
+      description: булка черного
+      substanceTags:
+      - черный
+      - хлеб
+      unit: P
+    OutputMaterial:
+    - amount: 16.0
+      substanceTags:
+      - хлеб
+      - черного
+      unit: P
+    conversionTerm: 1
+    currency: RUB
+    equipmentSelector:
+    - нож
+    multiplier: 5
+    recipe: нарезать

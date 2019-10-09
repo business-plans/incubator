@@ -1,0 +1,13 @@
+---
+kind: OutputMaterialVariant
+version: v1alpha
+data:
+  Хлеб черный:
+    VAT: 20
+    currency: RUB
+    price: 2.0
+    realizationPercent: 90
+    substanceTags:
+    - черный
+    - хлеб
+    volume: 1.0

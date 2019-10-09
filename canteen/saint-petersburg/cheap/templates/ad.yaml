@@ -1,0 +1,13 @@
+---
+kind: Ad
+version: v1alpha
+data:
+  Вывеска:
+    currency: RUB
+    description: Светящаяся вывеска
+    initialPrice: 5000
+    isActive: true
+    pricePerMonth: 100
+    requiredToStart: true
+    taSelector:
+    - прохожие

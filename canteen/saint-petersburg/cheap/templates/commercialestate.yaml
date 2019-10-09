@@ -1,0 +1,300 @@
+---
+kind: CommercialEstate
+version: v1alpha
+data:
+  Зал:
+    Equipment:
+      Бойлер:
+        count: 1
+        currency: RUB
+        leasingTerm: 12
+        mass: 7
+        price: 10000
+        requiredToStart: true
+        serviceTerm: 24
+        watts: 3000
+      Витрина:
+        count: 2
+        currency: RUB
+        leasingTerm: 12
+        mass: 15
+        price: 15000
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - зал
+        - витрина
+        watts: 500
+      Касса:
+        count: 1
+        currency: RUB
+        leasingTerm: 12
+        mass: 1
+        price: 10000
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - зал
+        - касса
+      Колонки:
+        count: 1
+        currency: RUB
+        leasingTerm: 12
+        mass: 1
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - колонки
+        watts: 50
+      Конвекционная печь:
+        count: 1
+        currency: RUB
+        leasingTerm: 12
+        mass: 50
+        price: 30000
+        requiredToStart: true
+        serviceTerm: 60
+        tags:
+        - зал
+        - печь
+        watts: 3000
+      Кофеварка:
+        count: 1
+        currency: RUB
+        leasingTerm: 12
+        mass: 5
+        price: 15000
+        requiredToStart: true
+        serviceTerm: 24
+        watts: 800
+      Мусорка:
+        count: 1
+        currency: RUB
+        leasingTerm: 12
+        mass: 7
+        price: 1000
+        requiredToStart: true
+        serviceTerm: 60
+        tags:
+        - мусорка
+      Ноутбук:
+        count: 1
+        currency: RUB
+        leasingTerm: 12
+        mass: 1
+        price: 35000
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - ноутбук
+      Освещение:
+        count: 1
+        currency: RUB
+        leasingTerm: 12
+        mass: 1
+        price: 20000
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - зал
+        - освещение
+      Поднос:
+        count: 30
+        currency: RUB
+        leasingTerm: 12
+        mass: 1
+        price: 50
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - зал
+        - поднос
+      Стол:
+        count: 15
+        currency: RUB
+        leasingTerm: 12
+        mass: 10
+        price: 3000
+        requiredToStart: true
+        serviceTerm: 60
+        tags:
+        - стол
+      Стул:
+        count: 30
+        currency: RUB
+        leasingTerm: 12
+        mass: 1
+        price: 2000
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - зал
+        - стул
+      Телевизор:
+        count: 1
+        currency: RUB
+        leasingTerm: 12
+        mass: 1
+        price: 15000
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - телевизор
+        watts: 500
+      Тряпка:
+        count: 6
+        currency: RUB
+        leasingTerm: 12
+        mass: 1
+        price: 50
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - зал
+        - тряпка
+      Швабра:
+        count: 1
+        currency: RUB
+        leasingTerm: 12
+        mass: 1
+        price: 200
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - зал
+        - швабра
+      Эквайринг:
+        count: 1
+        currency: RUB
+        leasingTerm: 12
+        mass: 1
+        price: 3000
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - зал
+        - эквайринг
+    Worker:
+      Кассир:
+        clothes: 5000
+        count: 2
+        currency: RUB
+        duties: продавать бутерброды
+        equipmentSelector:
+        - витрина
+        - касса
+        - печь
+        - поднос
+        - кофеварка
+        insurance: 20
+        maxSalary: 30000
+        minSalary: 20000
+        requiredToStart: true
+        tax: 13
+      Уборщица:
+        clothes: 2000
+        count: 1
+        currency: RUB
+        duties: "- мыть полы\r\n- убирать подносы\r\n- выносить мусор"
+        equipmentSelector:
+        - поднос
+        - мусорка
+        - швабра. тряпка
+        insurance: 20
+        maxSalary: 12000
+        minSalary: 7000
+        requiredToStart: true
+        tax: 13
+    Security:
+      Камеры:
+        currency: RUB
+        tags:
+        - общественное_питание
+        price: 6000.0
+        serviceTerm: 12
+      Охранное предприятие:
+        currency: RUB
+        tags:
+        - общественное_питание
+        - зал
+        price: 12000.0
+        serviceTerm: 12
+    address: невский, 50
+    area: 60
+    currency: RUB
+    owningType: rent
+    payment: 60000
+    tags:
+    - общественное_питание
+    - зал
+  Кухня:
+    Equipment:
+      Ножи:
+        count: 6
+        currency: RUB
+        leasingTerm: 12
+        mass: 1
+        price: 700
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - нож
+      Стол:
+        count: 3
+        currency: RUB
+        leasingTerm: 12
+        mass: 10
+        price: 3000
+        requiredToStart: true
+        serviceTerm: 60
+      Утварь:
+        count: 3
+        currency: RUB
+        leasingTerm: 12
+        mass: 3
+        price: 5000
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - утварь
+        watts: 1000
+      Холодильник:
+        count: 1
+        currency: RUB
+        leasingTerm: 12
+        mass: 1
+        price: 50000
+        requiredToStart: true
+        serviceTerm: 24
+        tags:
+        - холодильник
+        watts: 6000
+    Worker:
+      Повар:
+        clothes: 2000
+        count: 3
+        currency: RUB
+        duties: нарезать продукты, готовить еду
+        equipmentSelector:
+        - нож
+        - стол
+        - утварь
+        insurance: 20
+        maxSalary: 40000
+        minSalary: 30000
+        requiredToStart: true
+        tax: 13
+    Security:
+      Камеры:
+        currency: RUB
+        tags:
+        - общественное_питание
+        price: 6000.0
+        serviceTerm: 12
+    address: невский, 50
+    area: 20
+    currency: RUB
+    owningType: rent
+    payment: 20000
+    tags:
+    - общественное_питание

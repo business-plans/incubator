@@ -1,0 +1,13 @@
+---
+kind: BusinessPlan
+version: v1alpha
+data:
+  accounting: 1000
+  currency: RUB
+  inflationPrognosis: 4.0
+  isCommon: true
+  mainGoal: open canteen
+  name: '@stable/canteen'
+  tags:
+  - общественное_питание
+  version: v1.0

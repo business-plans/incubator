@@ -1,0 +1,23 @@
+---
+kind: TargetHumanAuditory
+version: v1alpha
+data:
+  Прохожие:
+    agesFrom: 18
+    agesTo: 99
+    currency: RUB
+    gender: B
+    sameCity: true
+    tags:
+    - прохожие
+  Работники предприятий:
+    agesFrom: 18
+    agesTo: 65
+    currency: RUB
+    gender: B
+    locations: близлежащие предприятия торговли
+    sameCity: true
+    tags:
+    - работники
+    - окружение
+    when: в обед

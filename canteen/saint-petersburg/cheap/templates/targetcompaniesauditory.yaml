@@ -1,0 +1,10 @@
+---
+kind: TargetCompaniesAuditory
+version: v1alpha
+data:
+  Организаторы торжеств:
+    currency: RUR
+    field: свадьбы, поминки, корпоративы
+    sameCity: true
+    tags:
+    - компании

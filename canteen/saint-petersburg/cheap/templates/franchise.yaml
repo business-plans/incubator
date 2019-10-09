@@ -1,0 +1,10 @@
+---
+kind: Franchise
+version: v1alpha
+data:
+  Subway:
+    currency: RUB
+    reimbursement: 100000
+    royalty: 2
+    royaltyBase: profit
+    salesPercentBase: profit

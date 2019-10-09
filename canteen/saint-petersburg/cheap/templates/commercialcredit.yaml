@@ -1,0 +1,11 @@
+---
+kind: CommercialCredit
+version: v1alpha
+data:
+  Start:
+    bank: vtb
+    began: 2019-09-29
+    currency: RUB
+    duration: 36
+    price: 100000
+    rate: 15.0
