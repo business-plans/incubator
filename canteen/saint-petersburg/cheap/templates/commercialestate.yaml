@@ -12,7 +12,7 @@ data:
         price: 10000
         requiredToStart: true
         serviceTerm: 24
-        watts: 3000
+        power: 3000
       Витрина:
         count: 2
         currency: RUB
@@ -24,7 +24,7 @@ data:
         tags:
         - зал
         - витрина
-        watts: 500
+        power: 500
       Касса:
         count: 1
         currency: RUB
@@ -45,7 +45,7 @@ data:
         serviceTerm: 24
         tags:
         - колонки
-        watts: 50
+        power: 50
       Конвекционная печь:
         count: 1
         currency: RUB
@@ -57,7 +57,7 @@ data:
         tags:
         - зал
         - печь
-        watts: 3000
+        power: 3000
       Кофеварка:
         count: 1
         currency: RUB
@@ -66,7 +66,7 @@ data:
         price: 15000
         requiredToStart: true
         serviceTerm: 24
-        watts: 800
+        power: 800
       Мусорка:
         count: 1
         currency: RUB
@@ -140,7 +140,7 @@ data:
         serviceTerm: 24
         tags:
         - телевизор
-        watts: 500
+        power: 500
       Тряпка:
         count: 6
         currency: RUB
@@ -257,7 +257,7 @@ data:
         serviceTerm: 24
         tags:
         - утварь
-        watts: 1000
+        power: 1000
       Холодильник:
         count: 1
         currency: RUB
@@ -268,7 +268,7 @@ data:
         serviceTerm: 24
         tags:
         - холодильник
-        watts: 6000
+        power: 6000
     Worker:
       Повар:
         clothes: 2000
