@@ -9,13 +9,14 @@ data:
       substanceTags:
       - черный
       - хлеб
-      unit: P
+      unit: pieces
     OutputMaterial:
     - amount: 16.0
       substanceTags:
+      - кусок
       - хлеб
-      - черного
-      unit: P
+      - черный
+      unit: pieces
     conversionTerm: 1
     currency: RUB
     equipmentSelector:
