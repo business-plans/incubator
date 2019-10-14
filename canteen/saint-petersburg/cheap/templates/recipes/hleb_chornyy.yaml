@@ -22,4 +22,4 @@ data:
     equipmentSelector:
     - нож
     multiplier: 5
-    recipe: нарезать
+    instruction: нарезать
