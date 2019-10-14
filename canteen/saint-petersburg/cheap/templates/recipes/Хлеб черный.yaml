@@ -1,5 +1,5 @@
 ---
-kind: MaterialsConversion
+kind: Recipe
 version: v1alpha
 data:
   Хлеб черный:
