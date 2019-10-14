@@ -7,7 +7,7 @@ data:
     currency: RUB
     price: 2.0
     realizationPercent: 90
-    substanceTags:
+    tags:
     - черный
     - хлеб
     volume: 1.0

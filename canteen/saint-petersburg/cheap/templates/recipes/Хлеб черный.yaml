@@ -6,13 +6,13 @@ data:
     InputMaterial:
     - amount: 1.0
       description: булка черного
-      substanceTags:
+      tags:
       - черный
       - хлеб
       unit: pieces
     OutputMaterial:
     - amount: 16.0
-      substanceTags:
+      tags:
       - кусок
       - хлеб
       - черный
